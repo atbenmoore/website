@@ -46,8 +46,8 @@ img {
 }
 
 .main-footer img {
-  height:40px;
-  width: 40px;
+  height: 20px;/* changed both to 20px from 40px */
+  width: 20px;
 }
 /* ================================= 
   Base Layout Styles
@@ -130,7 +130,7 @@ img {
 }
 
 .main-footer h5 {
-  color: #ff3b3f;
+  color: #3acec2;
 }
 
 .main-footer a:hover {
@@ -149,53 +149,7 @@ img {
   height:auto;
   z-index: -1;
 }
-/*.image-1 {
-  color: white;
-  text-align: left;
-  padding: 25px 25px;
-/*  border-top: 10px solid #ffa949;*/
-/*  margin: 105px 0 60px;
-  background: url('../img/me_1.jpg') no-repeat center;
-  background-size: cover;
- /* box-shadow: inset 0 0 50px 10px rgba(0,0,0, .8);*/
-/*  border-radius: 50%;
-  border: 10px solid #3acec2;
-  width: 400px;
-  height: 400px;
-  align-content: center;
-} */
-/*.image-1 {
-  padding: 18% 24%;
-  margin: 105px 0 60px;
 
-  width: 500px;
-  height: 500px;
-  box-shadow: inset 0 0 50px 10px rgba(0,0,0, .8);
-  background: linear-gradient(white, transparent 90%);
-}
-*/
-
-
-/*
-.primary{
-  position: relative;
-  padding: 100px 5% 0 5%;
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  }
-
-}
-/*
-.row  {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: flex-start;
-  padding: 50px;
-  flex: 1;
-}
-*/
 .skills {
  padding: 10px;
  text-align: center;
@@ -212,12 +166,6 @@ body {
   Page Elements
 ==================================== */
 
-/*  .skills-img {
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    right: -50px;
-   */ 
 
 
   .main-footer {
@@ -228,6 +176,13 @@ body {
     height: 300px;
     flex-direction: column;
   
+}
+
+  .soon {
+  margin-top: 100px;
+  display: block;
+  align-content: center;
+  text-align: center;
 }
 /* ================================= 
   Media Queries
@@ -284,6 +239,10 @@ body {
   align-items: center;
   justify-content: space-around;
 }
+
+.main-footer img {
+  height: 40px; /* NEW PLEASE ADD*/
+  width: 40px;
 }
 
 @media (min-width: 1025px) {
@@ -311,7 +270,7 @@ body {
 
 
   .row {
-    align-items: center;
+    align-items: flex-start;
     justify-content:space-around;
     flex-direction: row;
     flex-wrap: wrap;
@@ -320,6 +279,7 @@ body {
   .skills {
     flex-grow: 1;
     max-width:40%;
+    align-content:flex-start;
 }
 
 }
