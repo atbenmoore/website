@@ -45,6 +45,10 @@ img {
 	max-width: 100%;
 }
 
+.main-footer img {
+  height:40px;
+  width: 40px;
+}
 /* ================================= 
   Base Layout Styles
 ==================================== */
@@ -75,10 +79,13 @@ img {
 	text-transform: uppercase;
 }
 .main-nav a:hover {
-	color: #b5b9bd;
+	color: white;
   text-transform: uppercase;
 }
 
+.mainheader a {
+  
+}
 
 /* ---- Skills ---- */
 .second-header{
@@ -94,7 +101,7 @@ img {
 .main-header {
 	padding-top: .35em;
 	padding-bottom: .35em;
-  background: white ;
+  background: #576366 ;
 }
 .banner,
 .main-footer {
@@ -114,14 +121,19 @@ img {
 ;
 	padding: 2em 0;
 	margin-top: 30px;
-  background: #34515e;
+  background: #576366;
 }
 
-.main-footer p {
-  color:#ffd700;
-}
-
+.main-footer p, 
 .main-footer a {
+  color: white;
+}
+
+.main-footer h5 {
+  color: #ff3b3f;
+}
+
+.main-footer a:hover {
   color:#3acec2;
 }
 /* ================================= 
